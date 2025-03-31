@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenEats - Sustainable Food Blog</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">GreenEats</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="calculator.html">Calculator</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <div class="hero">
+            <h1>Eat Green, Live Well</h1>
+            <p>Discover sustainable recipes and tips for a healthier planet.</p>
+            <a href="calculator.html" class="cta">Try the Calculator</a>
+        </div>
+        <!-- Featured Recipes Section -->
+        <section class="featured">
+            <h2>Featured Recipes</h2>
+            <div class="recipe-grid" id="featuredRecipes"></div>
+            <a href="recipes.html" class="show-more">Show More Recipes</a>
+        </section>
+
+        <!-- Featured Blogs Section -->
+        <section class="featured-blogs">
+            <h2>Latest Blog Posts</h2>
+            <div class="blog-grid" id="featuredBlogs"></div>
+            <a href="blog.html" class="show-more">Show More Blogs</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 GreenEats. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script>
+        // Load featured recipes (2 items only)
+        fetch('../data/recipes.json')
+            .then(res => res.json())
+            .then(data => {
+                const featuredRecipes = document.getElementById('featuredRecipes');
+                data.slice(0, 2).forEach(recipe => {
+                    const card = document.createElement('div');
+                    card.className = 'recipe-card';
+                    card.innerHTML = `
+            <img src="${recipe.image}" alt="${recipe.title}" loading="lazy">
+            <h3>${recipe.title}</h3>
+            <p>${recipe.ingredients}</p>
+          `;
+                    featuredRecipes.appendChild(card);
+                });
+            });
+
+        // Load featured blogs (2 items only)
+        const storedBlogs = localStorage.getItem('blogs');
+        if (storedBlogs) {
+            renderFeaturedBlogs(JSON.parse(storedBlogs));
+        } else {
+            fetch('../data/blogs.json')
+                .then(res => res.json())
+                .then(data => {
+                    localStorage.setItem('blogs', JSON.stringify(data));
+                    renderFeaturedBlogs(data);
+                });
+        }
+
+        function renderFeaturedBlogs(blogArray) {
+            const featuredBlogs = document.getElementById('featuredBlogs');
+            blogArray.slice(0, 2).forEach(post => {
+                const blogPost = document.createElement('div');
+                blogPost.className = 'blog-post';
+                blogPost.innerHTML = `
+          <img src="${post.image}" alt="${post.title}" loading="lazy">
+          <h3>${post.title}</h3>
+          <p>${post.content.substring(0, 80)}...</p>
+        `;
+                featuredBlogs.appendChild(blogPost);
+            });
+        }
+    </script>
+</body>
+
+</html>

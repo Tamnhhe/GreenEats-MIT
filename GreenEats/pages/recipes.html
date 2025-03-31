@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes - GreenEats</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">GreenEats</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="calculator.html">Calculator</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <section class="recipes">
+        
+        <div class="filter-sidebar">
+            <h3>Filter</h3>
+            <ul>
+                <li><a href="#" data-category="all" onclick="filterRecipes('all')">All</a></li>
+                <li><a href="#" data-category="vegan" onclick="filterRecipes('vegan')">Vegan</a></li>
+                <li><a href="#" data-category="low-waste" onclick="filterRecipes('low-waste')">Low-Waste</a></li>
+                <li><a href="#" data-category="seasonal" onclick="filterRecipes('seasonal')">Seasonal</a></li>
+            </ul>
+        </div>
+        <div class="recipe-list" id="recipeList"></div>
+    </section>
+    <footer>
+        <p>© 2025 GreenEats. All rights reserved.</p>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

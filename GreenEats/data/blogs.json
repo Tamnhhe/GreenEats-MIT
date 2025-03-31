@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "5 Tips for Sustainable Eating",
+        "image": "../assets/images/sustainability-tips.jpg",
+        "content": "Learn how to reduce waste and eat greener."
+    },
+    {
+        "id": 2,
+        "title": "Why Local Sourcing Matters",
+        "image": "../assets/images/food-sourcing.jpg",
+        "content": "Support farmers and lower your carbon footprint."
+    },
+    {
+        "id": 3,
+        "title": "Sustainable Cooking Techniques",
+        "image": "../assets/images/sustainable-cooking.jpg",
+        "content": "Try new cooking techniques to reduce waste and save energy."
+    },
+    {
+        "id": 4,
+        "title": "The Benefits of Organic Farming",
+        "image": "../assets/images/organic-farming.jpg",
+        "content": "Understand the advantages of organic produce."
+    },
+    {
+        "id": 5,
+        "title": "Seasonal Eating: Why It Matters",
+        "image": "../assets/images/seasonal-eating.jpg",
+        "content": "Discover the benefits of eating with the seasons."
+    },
+    {
+        "id": 6,
+        "title": "Zero Waste Kitchen Tips",
+        "image": "../assets/images/zero-waste-kitchen.jpg",
+        "content": "Learn how to minimize waste in your kitchen."
+    },
+    {
+        "id": 7,
+        "title": "Plant-Based Diets and Sustainability",
+        "image": "../assets/images/plant-based-diet.jpg",
+        "content": "Explore the environmental benefits of plant-based eating."
+    },
+    {
+        "id": 8,
+        "title": "The Impact of Food Packaging",
+        "image": "../assets/images/food-packaging.jpg",
+        "content": "Understand how packaging affects sustainability."
+    },
+    {
+        "id": 9,
+        "title": "Healthy Eating Habits for Sustainability",
+        "image": "../assets/images/healthy-eating-habits.jpg",
+        "content": "Discover healthy eating habits that promote sustainability."
+    },
+    {
+        "id": 10,
+        "title": "The Future of Sustainable Food",
+        "image": "../assets/images/future-of-food.jpg",
+        "content": "Explore innovations in sustainable food production."
+    }
+]

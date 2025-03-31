@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "title": "Vegan Spring Pasta",
+        "image": "../assets/images/vegan-pasta.jpg",
+        "ingredients": "Pasta, spinach, cherry tomatoes, olive oil",
+        "steps": "Boil pasta, sauté veggies, mix with oil",
+        "sustainabilityScore": "8/10",
+        "category": "vegan"
+    },
+    {
+        "id": 2,
+        "title": "Quinoa Summer Salad",
+        "image": "../assets/images/quinoa-salad.jpg",
+        "ingredients": "Quinoa, cucumber, mint, lemon",
+        "steps": "Cook quinoa, chop veggies, toss with dressing",
+        "sustainabilityScore": "9/10",
+        "category": "seasonal"
+    },
+    {
+        "id": 3,
+        "title": "Low-Waste Veggie Soup",
+        "image": "../assets/images/veggie-soup.jpg",
+        "ingredients": "Carrots, potato peels, broth",
+        "steps": "Simmer scraps in broth, blend until smooth",
+        "sustainabilityScore": "7/10",
+        "category": "low-waste"
+    },
+    {
+        "id": 4,
+        "title": "Organic Fruit Smoothie",
+        "image": "../assets/images/fruit-smoothie.jpg",
+        "ingredients": "Bananas, apples, berries, yogurt",
+        "steps": "Blend fruits, add yogurt, serve with granola",
+        "sustainabilityScore": "9/10",
+        "category": "organic"
+    },
+    {
+        "id": 5,
+        "title": "Sustainable Sourdough Bread",
+        "image": "../assets/images/sourdough-bread.jpg",
+        "ingredients": "Flour, water, yeast, salt",
+        "steps": "Mix ingredients, let rise, bake in oven",
+        "sustainabilityScore": "8/10",
+        "category": "sustainable"
+    },
+    {
+        "id": 6,
+        "title": "Vegan Stir-Fry",
+        "image": "../assets/images/vegan-stir-fry.jpg",
+        "ingredients": "Cabbage, carrots, tofu, bell peppers",      
+        "steps": "Saute veggies, mix with soy sauce, serve with rice",  
+        "sustainabilityScore": "9/10",
+        "category": "vegan"
+    },
+    {
+        "id": 7,
+        "title": "Healthy Green Smoothie Bowl",
+        "image": "../assets/images/green-smoothie-bowl.jpg",
+        "ingredients": "Bananas, spinach, berries, yogurt",
+        "steps": "Blend fruits, add yogurt, serve with granola",
+        "sustainabilityScore": "9/10",
+        "category": "healthy"
+    },
+    {
+        "id": 8,
+        "title": "Organic Avocado Toast",
+        "image": "../assets/images/organic-avocado-toast.jpg",
+        "ingredients": "Avocado, whole wheat toast, olive oil",
+        "steps": "Toast bread, spread avocado, drizzle with olive oil",
+        "sustainabilityScore": "7/10",
+        "category": "organic"
+    },
+    {
+        "id": 9,
+        "title": "Seasonal Vegetable Stir-Fry",
+        "image": "../assets/images/seasonal-stir-fry.jpg",
+        "ingredients": "Broccoli, carrots, bell peppers, soy sauce",
+        "steps": "Stir-fry veggies, add soy sauce, serve with rice",
+        "sustainabilityScore": "8/10",
+        "category": "seasonal"
+    },
+    {
+        "id": 10,
+        "title": "Zero Waste Banana Bread",
+        "image": "../assets/images/banana-bread.jpg",
+        "ingredients": "Overripe bananas, flour, sugar, eggs",
+        "steps": "Mash bananas, mix with other ingredients, bake",
+        "sustainabilityScore": "9/10",
+        "category": "low-waste"
+    },
+    {
+        "id": 11,
+        "title": "Vegan Quinoa Salad",
+        "image": "../assets/images/vegan-quinoa-salad.jpg",
+        "ingredients": "Quinoa, spinach, cherry tomatoes, olive oil",
+        "steps": "Boil pasta, sauté veggies, mix with oil",
+        "sustainabilityScore": "8/10",
+        "category": "vegan"
+    }
+]
